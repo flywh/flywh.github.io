@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: 个人博客
+    runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v4
       with:
